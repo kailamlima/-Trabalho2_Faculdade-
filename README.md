@@ -12,4 +12,8 @@ Uma lista com tudo que o programa faz:
 
 Um dos principais requisitos do projeto era que o sistema não tivesse um limite fixo de produtos. Para atender a isso, a arquitetura foi desenvolvida para manipular o arquivo estoque.txt diretamente a cada operação, em vez de carregar os dados para um vetor em memória. Para as operações de alteração e exclusão, foi implementada a técnica de arquivo temporário para garantir a integridade dos dados sem a necessidade de bibliotecas externas.
 
+o projeto foi feito no Dev C++ 6.3
+
 Para compilar o projeto, utilize um compilador GCC e execute o seguinte comando na pasta raiz: gcc main.c produto.c -o estoque.exe
+
+por enqaunto o codigo funciona só em windows.
