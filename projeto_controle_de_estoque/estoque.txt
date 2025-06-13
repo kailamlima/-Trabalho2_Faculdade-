@@ -1,0 +1,13 @@
+101;shampooA;marcaA;50;12.90
+103;sabonete;marcaA;100;3.99
+104;shampooB;marcaA;567;6.78
+105;condicionadorB;marcaA;60;12.50
+106;saboneteB;marcaA;55;8.99
+107;shampooB;marcaB;45;9.60
+108;condicionadorB;marcaB;60;12.50
+109;saboneteB;marcaB;55;8.99
+110;shampooC;marcaB;45;18.60
+111;condicionadorC;marcaB;60;16.50
+112;saboneteC;marcaB;55;4.99
+113;tecladoA;MarcaA;35;25.00
+114;teste;marcaA;60;2.00
