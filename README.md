@@ -1,19 +1,19 @@
 # -Trabalho2_Faculdade-
-Sistema de Gerenciamento de Estoque em C.
+Inventory Management System in C.
 
-Este é um sistema de console desenvolvido em C para gerenciar um estoque de produtos. O projeto foi criado como parte da disciplina de Algoritmos II e foca na manipulação direta de arquivos de texto para persistência de dados, sem o uso de vetores em memória para armazenamento em tempo de execução.
+This is a console system developed in C to manage product inventory. The project was created as part of the Algorithms II course and focuses on the direct manipulation of text files for data persistence, without the use of in-memory vectors for runtime storage.
 
-Uma lista com tudo que o programa faz:
-* Cadastro de produtos com verificação de código único.
-* Alteração de preço e quantidade.
-* Exclusão de produtos.
-* Listagem de todos os produtos ou com filtros por nome e marca.
-* Relatórios de quantidade total e valor total por nome ou marca.
+A list of everything the program does:
+* Product registration with unique code verification.
+* Price and quantity changes.
+* Product deletion.
+* Listing of all products or filtering by name and brand.
+* Reports on total quantity and total value by name or brand.
 
-Um dos principais requisitos do projeto era que o sistema não tivesse um limite fixo de produtos. Para atender a isso, a arquitetura foi desenvolvida para manipular o arquivo estoque.txt diretamente a cada operação, em vez de carregar os dados para um vetor em memória. Para as operações de alteração e exclusão, foi implementada a técnica de arquivo temporário para garantir a integridade dos dados sem a necessidade de bibliotecas externas.
+One of the main requirements of the project was that the system should not have a fixed product limit. To meet this requirement, the architecture was developed to manipulate the stock.txt file directly for each operation, instead of loading the data into a vector in memory. For change and delete operations, the temporary file technique was implemented to ensure data integrity without the need for external libraries.
 
-o projeto foi feito no Dev C++ 6.3
+The project was created in Dev C++ 6.3
 
-Para compilar o projeto, utilize um compilador GCC e execute o seguinte comando na pasta raiz: gcc main.c produto.c -o estoque.exe
+To compile the project, use a GCC compiler and run the following command in the root folder: gcc main.c product.c -o stock.exe
 
-por enqaunto o codigo funciona só em windows.
+The code was designed in Windows.
